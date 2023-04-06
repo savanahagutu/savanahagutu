@@ -4,12 +4,7 @@
     font-family: 'Space Mono', monospace;
 }
 
-.logo {
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    letter-spacing: 0.25ch;
-}
+/* Navigation bar section  */
 
 .navbar a{
     float: right;
@@ -26,12 +21,8 @@
     border-radius: 10px;
 }
 
-/* #image-logo{
-    width: 379px;
-    margin-top: 5%;
-    
-} */
 
+/* Effects to image-logo */
 #image-logo {
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite alternate;
@@ -44,3 +35,5 @@
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
 }
+
+/* Details Section */

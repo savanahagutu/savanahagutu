@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comfortaa&family=Quicksand:wght@500;700&family=Space+Mono&display=swap');@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comfortaa&family=Quicksand:wght@700&family=Space+Mono&display=swap');
 *{
     background: whitesmoke;
-    font-family: 'Space Mono', monospace;
+    padding: 0;
+    margin: 0;
 }
 
 /* Navigation bar section  */
@@ -13,6 +15,7 @@
     margin-left: 50px;
     font-size: 18px;
     padding: 10px;
+    font-family: 'Quicksand', sans-serif;
     
 }
 .navbar a:hover{
@@ -24,6 +27,7 @@
 
 /* Effects to image-logo */
 #image-logo {
+    float: left;
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite alternate;
 }
@@ -37,3 +41,21 @@
 }
 
 /* Details Section */
+.details-sec{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10%;
+    float: left;
+}
+
+.name_text{
+    font-size: 96px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.occupation{
+    margin-top: 1px;
+    font-size: 46px;
+    color: #00F663;
+    font-family: 'Quicksand', sans-serif;
+}

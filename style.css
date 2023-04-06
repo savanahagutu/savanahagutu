@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comfortaa&family=Quicksand:wght@500;700&family=Space+Mono&display=swap');@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comfortaa&family=Quicksand:wght@700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400&display=swap');
 *{
     background: whitesmoke;
     padding: 0;
@@ -8,26 +9,40 @@
 
 /* Navigation bar section  */
 
-.navbar a{
+
+li{
     float: right;
-    color: black;
-    text-decoration: none;
-    margin-left: 50px;
-    font-size: 18px;
-    padding: 10px;
-    font-family: 'Quicksand', sans-serif;
+    margin-top: 18px;
+    list-style-type: none;
+    margin-right: 20px;
     
 }
-.navbar a:hover{
+li a{
+    padding: 9px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+}
+
+li a:hover{
     color: rgb(255, 255, 255);
-    background-color: rgb(134, 150, 219);
+    background-color: rgb(53, 89, 252);
     border-radius: 10px;
+} 
+
+nav p{
+    float: left;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Redacted Script', cursive;
 }
 
 
 /* Effects to image-logo */
 #image-logo {
     float: left;
+    margin-top: 2%;
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite alternate;
 }
@@ -43,13 +58,13 @@
 /* Details Section */
 .details-sec{
     display: inline-block;
-    margin-left: 10px;
-    margin-top: 10%;
+    margin-left: 3%;
+    margin-top: 8%;
     float: left;
 }
 
 .name_text{
-    font-size: 96px;
+    font-size: 76px;
     font-family: 'Quicksand', sans-serif;
     
 }
@@ -58,4 +73,25 @@
     font-size: 46px;
     color: #00F663;
     font-family: 'Quicksand', sans-serif;
+}
+
+.links a{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn_resume{
+    width: 184.86px;
+    height: 58.03px;
+    text-align: center;
+    margin-top: 50px;
+    background: black;
+    color: white;
+    font-family:'Quicksand', sans-serif ;
+    font-size:30px ;
+    padding: 2px;
+    border-radius:10px ;
+
 }

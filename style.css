@@ -95,3 +95,20 @@ nav p{
     border-radius:10px ;
 
 }
+
+/* about me section */
+.aboutme{
+    margin-top: 100px;
+    display: inline-block;
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+}
+.aboutme img{
+    width: 57px;
+    height: 57px;
+}
+.aboutme p{
+    margin-top: 7px;
+    font-size: 16px;
+    text-align: center;
+}

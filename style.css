@@ -7,6 +7,12 @@
     margin: 0;
 }
 
+body{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
 /* Navigation bar section  */
 
 
@@ -22,7 +28,7 @@ li a{
     text-decoration: none;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-family: 'Quicksand', sans-serif;
+    
 }
 
 li a:hover{
@@ -42,7 +48,7 @@ nav p{
 /* Effects to image-logo */
 #image-logo {
     float: left;
-    margin-top: 2%;
+    margin-top: 5%;
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite alternate;
 }
@@ -57,14 +63,14 @@ nav p{
 
 /* Details Section */
 .details-sec{
-    display: inline-block;
-    margin-left: 3%;
+    display: block;
+    margin-left: 0.5%;
     margin-top: 8%;
     float: left;
 }
 
 .name_text{
-    font-size: 76px;
+    font-size: 66px;
     font-family: 'Quicksand', sans-serif;
     
 }
@@ -83,7 +89,7 @@ nav p{
 }
 
 .btn_resume{
-    width: 184.86px;
+    width: 160px;
     height: 58.03px;
     text-align: center;
     margin-top: 50px;
@@ -98,17 +104,39 @@ nav p{
 
 /* about me section */
 .aboutme{
-    margin-top: 100px;
     display: inline-block;
+    margin-top: 100px;
+}
+.aboutme p{
+    font-size: 20px;
+    
+}
+
+
+
+/* projects section */
+.project_container{
+    margin-top: 100px;
+    display: block;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
-.aboutme img{
-    width: 57px;
-    height: 57px;
-}
-.aboutme p{
-    margin-top: 7px;
-    font-size: 16px;
-    text-align: center;
-}
+
+/* .card1{
+    max-width: 900px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+    
+    height: 300px;
+    padding: 35px;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+} */
+

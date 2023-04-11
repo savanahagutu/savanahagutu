@@ -5,6 +5,7 @@
     background: whitesmoke;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -193,19 +194,22 @@ nav p{
 
 /* Project Section  */
 .container{
-    display: grid;
-    min-height: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    overflow-y: hidden;
+    
+    /* min-height: 100vh; */
+    padding: 30px;
+    
 }
 
 .card{
+    min-height: 100px;
+    justify-content: center;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-    width: 520px;
-    height: 350px;
+
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.45);
@@ -213,88 +217,52 @@ nav p{
     backdrop-filter: blur(15px);
 }
 
-.image1 img{
-    width: 290px;
-    margin-top: 47px;
-    height: auto;
+.image1{
+    float: left;
+    padding: 10px;
 }
-
 .details{
-    position: absolute;
-    width: 40%;
-    height: 100%;
-    top: 10%;
-    left: 60%;
-}
-
-.details p{
-    text-transform: none;
-    letter-spacing: 0;
-    margin-bottom: 5px;
-    color: black;
-    font-size: .7em;
-    line-height: 1.6em;
-    margin-right: 25px;
+    padding: 20px;
     text-align: justify;
 }
 
-.lang-title{
-    font-weight: bold;
+.details h2{
+    margin-bottom: 5px;
+}
+.details .content{
+    font-size: 18px;
+}
+.details .lang-title{
+    font-weight: 600;
+    color: #83029c;
 }
 
-.lang {
-    /* display: inline-block;
-    width: 30%;
-    margin-left: 20px;
-    margin-top: 5px; */
-    margin-left: 0;
+.lang{
+    padding-top: 15px;
 }
-
-
-
 .lang-col{
-    display: inline-block;
-    border: 1px solid black;
+    display: inline;
+    border: solid 1px;
     border-radius: 10px;
-    padding: 3px 5px;
-    font-size: 0.7em;
-
+    padding: 5px;
+    vertical-align: top;
 }
-.buttons button{
-    border-radius: 20px;
-    border-style: none;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    display: inline-block;
-    margin-right: 20px;
-    /* padding: 5px;
-    display: inline-block;
-    outline: 0;
-    border: 0;
-    background: #4c75fa;
-    border-radius: 10px;
-    text-transform: uppercase;
-    cursor: pointer; */
+
+.lang-col:hover{
+    border: #fa834c solid;
 }
 
 
+.buttons{
+    margin-top: 15px;
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 980px) {
+    .card{
+        flex-wrap: wrap;
+    }
+}
 
 
 

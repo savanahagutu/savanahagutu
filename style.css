@@ -240,27 +240,21 @@ nav p{
 }
 
 .lang{
-    padding-top: 15px;
+    margin-top: 15px;
+
 }
 .lang-col{
-    display: inline;
+    display: inline-block;
     border: solid 1px;
     border-radius: 10px;
     padding: 5px;
     vertical-align: top;
 }
 
-.lang-col:hover{
+/* .lang-col:hover{
     border: #fa834c solid;
-}
+} */
 
-
-.buttons{
-    display: flex;
-    margin-top: 12px;
-    justify-content: center;
-   
-}
 
 @media screen and (max-width: 980px) {
     .card{
@@ -268,13 +262,65 @@ nav p{
     }
 }
 
+.btns{
+    margin-top: 30px;
+
+}
+
+.btns a{
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.4;
+    transition: all .55s ease;
+}
+
+.live{
+    background: #4af844;
+    margin-right: 50px;
+    /* justify-content: center; */
+}
+
+.live:hover{
+    background: rgb(250, 240, 250);
+    color: black;
+    border: 1.5px solid rgb(0, 0, 0);
+    transform: translateY(8px);
+}
+
+.live i{
+    background-color:transparent;
+    margin-right: 6px;
+    vertical-align: middle;
+
+}
 
 
+.code{
+    background: #1e32ee;
+    margin-right: 30px;
+    /* justify-content: center; */
+}
+
+.code:hover{
+    background: rgb(250, 240, 250);
+    color: black;
+    border: 1.5px solid rgb(0, 0, 0);
+    transform: translateY(8px);
+}
+
+.code i{
+    background-color:transparent;
+    margin-right: 6px;
+    vertical-align: middle;
 
 
-
-
-
-
-
+}
 

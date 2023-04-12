@@ -2,18 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comfortaa&family=Quicksand:wght@500;700&family=Space+Mono&display=swap');@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comfortaa&family=Quicksand:wght@700&family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400&display=swap');
 *{
-    background: whitesmoke;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
 }
 
-body{
+/* body{
     padding: 10px;
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
-}
+    
+} */
 
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
 /* Navigation bar section  */
 
 
@@ -48,9 +54,44 @@ nav p{
 
 /* Effects to image-logo */
 
+section{
+    padding: 0 10%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.my-details h1{
+    font-size: 66px;
+}
+
+.my-details h5{
+    font-size: 46px;
+    color: #04ff04;
+}
+
+.my-details a{
+    display: inline-block;
+    margin-top: 13px;
+}
+.git{
+    margin-right: 25px;
+}
+
+
+
+
 
 /* Details Section */
-.details-sec{
+/* .details-sec{
     display: block;
     float: left;
     margin-left: 0.5%;
@@ -75,37 +116,33 @@ nav p{
     height: 45px;
     display: inline-block;
     margin-top: 20px;
-}
+} */
 
-.btn_resume{
-    width: 160px;
-    height: 58.03px;
-    text-align: center;
-    margin-top: 50px;
-    background: black;
-    color: white;
-    font-family:'Quicksand', sans-serif ;
-    font-size:30px ;
-    padding: 2px;
-    border-radius:10px ;
-
-}
-
+/* 
 .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 2% 2% ;
-}
-.row .column1{
-    padding-right: 50px;
-}
+} */
 
+
+/* 
 .column1{
     margin-top: 80px;
     float: left;
-}
+} */
 
+
+
+/* 
+
+.row .column1{
+    padding-right: 50px;
+} */
+
+
+/* 
 .column1 h1{
     font-size: 70px;
     margin-bottom: 10px;
@@ -128,7 +165,22 @@ nav p{
     background: #4c75fa;
 }
 
-#image-logo {
+
+.btn_resume{
+    width: 160px;
+    height: 58.03px;
+    text-align: center;
+    margin-top: 50px;
+    background: black;
+    color: white;
+    font-family:'Quicksand', sans-serif ;
+    font-size:30px ;
+    padding: 2px;
+    border-radius:10px ;
+
+} */
+
+/* #image-logo {
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite alternate;
 }
@@ -139,11 +191,11 @@ nav p{
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
-} 
+}  */
 
 
 /*Header content responsive*/
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
     .image-banner img {
         width: 290px;
         height: 255px;
@@ -172,13 +224,13 @@ nav p{
     .row .column1{
         padding: 30px;
     }
-}
+} */
 
 
 /* about me section */
 .aboutme{
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 .aboutme h1{

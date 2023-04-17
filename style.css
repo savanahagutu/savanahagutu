@@ -433,3 +433,71 @@ section{
 
 
 
+/* Contact Form Section */
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+form img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+form h1{
+    margin-bottom: 55px;
+    text-align: center;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: transparent;
+    font-size: 15px;
+    
+}
+#name , #email{
+    height: 50px;
+}
+label{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    cursor: text;
+}
+
+form button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 55px;
+    margin-bottom: 50px;
+    font-size:20px ;
+    font-weight: 700;
+    width: 50%;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    background: #3935F8;
+}

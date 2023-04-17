@@ -93,19 +93,20 @@
     <div class="contact-container">
         <form >
             <img src="images/send.png" alt="">
-            <div class="row-heading">
-                <h1>Get In Touch</h1>
+            <h1>Get In Touch</h1>
+            <div class="row-input">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
             </div>
+            
             <div class="input-group">
-                <input type="text" id="name" required>
-                <label for="name">Name</label>
-            </div>
-            <div class="input-group">
-                <input type="email" id="email" required>
-                <label for="email">Email</label>
-            </div>
-            <div class="input-group">
-                <textarea id="message" rows="8"></textarea>
+                <textarea id="message" rows="8" required></textarea>
                 <label for="message">Message</label>
             </div>
             <button type="submit">Send Message</button>

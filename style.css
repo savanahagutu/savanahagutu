@@ -23,7 +23,8 @@ body{
 /* Navigation bar section  */
 
 
-li{
+
+/* li{
     float: right;
     margin-top: 18px;
     list-style-type: none;
@@ -49,7 +50,7 @@ nav p{
     font-size: 30px;
     padding: 10px;
     font-family: 'Redacted Script', cursive;
-}
+} */
 
 
 /* Effects to image-logo */

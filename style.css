@@ -60,3 +60,32 @@ header{
     margin-left: 10px;
     background-color: transparent;
  }
+
+
+   /* Media Queries for a Responsive Design */
+@media screen and (max-width: 1200px) {
+    .navbar{
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links{
+        margin-top: 15px;
+    }
+
+    .resume-btn {
+        margin-top: 15px;
+    }
+
+}
+
+
+
+
+

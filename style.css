@@ -1,12 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comfortaa&family=Quicksand:wght@500;700&family=Space+Mono&display=swap');@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Comfortaa&family=Quicksand:wght@700&family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
+    /* 
+    box-sizing: border-box; */
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Inter', sans-serif;
     list-style: none;
     text-decoration: none;
+    background-color: #88AB8E;
     
 }
+header{
+    background-color: rgba(136, 171, 142, 0.8);
+    padding: 15px 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-text {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    font-style: normal;
+}
+.nav-links a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+ }
+
+ .resume-btn button{
+    border-radius: 8px;
+    border: 1px solid #88AB8E;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(15px);
+    padding: 10px 15px;
+    cursor: pointer;
+    align-items: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+ }
+
+ .resume-btn button img {
+    margin-left: 10px;
+    background-color: transparent;
+ }

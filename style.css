@@ -112,7 +112,125 @@ header{
 
  /*End of Intro section*/
 
+  /*Start of About me section*/
+.about-section{
+    text-align: center;
+    padding: 40px 0;
+}
 
+.title-text{
+    color: #ECA009;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.about-content {
+    margin-top: 20px;
+    padding: 40px;
+  }
+  
+  .content-card {
+    background-color: #fff; /* White background */
+    box-shadow: 16px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+  }
+  
+  .about-text {
+    color: #000; /* Black text color */
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: transparent;
+  }
+  
+
+
+
+ /*End of About me section*/
+
+ /*project section */
+      
+ .projects-section {
+    text-align: center;
+    background-color: #88AB8E; /* Background color for the section */
+    padding: 40px 0;
+  }
+  
+  .project-icons {
+    margin-top: 20px;
+  }
+  
+  .project-icon {
+    width: 50px; /* Set the width as needed */
+    height: 50px; /* Set the height as needed */
+    /* Placeholder styles, replace with your actual styles */
+  }
+  
+  .project-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .project-card {
+    width: 30%; /* Adjust the width as needed for three cards */
+    box-shadow: 16px 4px 30px 0px rgba(0, 0, 0, 0.25); /* Shadow effect */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.59);
+    
+  }
+  
+  .project-name {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+    background-color: transparent;
+  }
+  
+  .project-image {
+    width: 100%; /* Make the image responsive within its container */
+    height: auto;
+    margin-top: 10px;
+
+  }
+  
+  .project-description,
+  .project-details {
+    margin: 10px 0;
+    background-color: transparent;
+  }
+  
+  .description-title,
+  .details-title {
+  font-weight: bold;
+  }
+
+
+
+  .project-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: transparent;
+  }
+  
+  /* Placeholder styles for icons, replace with your actual styles */
+  button.icon-live{
+    padding: 8px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+
+
+ /* end of project section  */
 
 
 
@@ -131,6 +249,7 @@ header{
     .navbar{
         padding: 0 15px;
     }
+    
 
     
 }
@@ -149,32 +268,53 @@ header{
         margin-top: 15px;
     }
 
+    /*intro section */
 
     .intro-section {
         flex-direction: column;
         align-items: center;
       }
-      .text-content {
+    .text-content {
         padding-right: 0; /* Remove padding between text and image on smaller screens */
         margin-bottom: 20px; /* Adjust spacing between text and image on smaller screens */
-      }
+    }
 
-      .intro-text1{
+    .intro-text1{
         font-size: 45px;
-      }
+    }
 
-      .intro-text2{
+    .intro-text2{
         font-size: 25px;
-      }
+    }
 
-      .image-content img {
+    .image-content img {
         max-width: 50%;
         margin-top: 15px;
         
+    }
+
+    /* End of intro section/*
+
+    /*about me section */
+    .title-text {
+        font-size: 24px;
+      }
+    
+      .about-text {
+        font-size: 14px;
       }
 
-}
 
+    /* end of about me section*/
+
+    /*project section */
+      
+
+
+
+    /*end of project section */
+
+}
 
 
 

@@ -66,31 +66,22 @@ header{
  .intro-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 15px auto; 
 }
 
-
-.image-content {
-  flex: 1; 
-}
 
 .text-content { 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 10px;
+  margin-top: 10%;
+  padding: 20px;
 
 }
 
-.intro-section{
-    flex-direction: column;
-    text-align: center;
-}
 
 .intro-text1{
     color: #FFF;
-    font-size: 55px; /* Set the font size */
+    font-size: 60px; /* Set the font size */
     font-weight: 950;
     margin: 0;
 }
@@ -100,13 +91,20 @@ header{
     font-weight: 500;
     font-size: 35px;
     margin-top: 15px;
+    
 }
 .name {
   color: #ECA009; /* Set the color specifically for the word "Savanah" */
 }
 
-.image-content img {
-  max-width: 100%; /* Make sure the image is responsive within its container */
+.intro-image{
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.intro-image img {
+  max-width: 100%; 
+  height: auto;
 }
 
 
@@ -170,6 +168,7 @@ header{
   }
   
   .project-cards {
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -274,9 +273,9 @@ header{
         flex-direction: column;
         align-items: center;
       }
-    .text-content {
-        padding-right: 0; /* Remove padding between text and image on smaller screens */
-        margin-bottom: 20px; /* Adjust spacing between text and image on smaller screens */
+    .text-content{
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .intro-text1{
@@ -287,11 +286,16 @@ header{
         font-size: 25px;
     }
 
-    .image-content img {
+    .intro-image{
+      margin-top: 25px;
+      margin-right: 0;
+    }
+
+    /* .image-content img {
         max-width: 50%;
         margin-top: 15px;
         
-    }
+    } */
 
     /* End of intro section/*
 
@@ -312,10 +316,66 @@ header{
 
 
 
-    /*end of project section */
+    /* end of project section  */
 
 }
 
+
+@media (max-width: 480px) {
+  /*Navbar Section*/
+  .navbar{
+    flex-direction: column;
+  }
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 6px;
+  }
+
+  .navbar a:first-child {
+    margin-top: 0;
+    
+  }
+
+  .navbar a:hover {
+    background-color: rgba(248, 137, 33, 0.856);
+  }
+
+  .navbar a:active {
+    background-color: rgba(255, 255, 255, 0.10);
+  }
+  .resume-btn{
+    margin-top: 10px;
+  }
+
+
+
+  /*Intro Section*/
+  .intro-section {
+      padding: 0 20px; 
+  }
+
+  .text-content {
+      margin-left: 0; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .intro-text1 {
+      font-size: 30px; 
+  }
+
+  .intro-text2 {
+      font-size: 20px; 
+  }
+
+  .intro-image {
+      margin-top: 25px; 
+      margin-right: 0;
+  }
+}
 
 
 

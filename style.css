@@ -151,7 +151,7 @@ header{
       
  .projects-section {
     text-align: center;
-    background-color: #88AB8E; /* Background color for the section */
+    background-color: #88AB8E; 
     padding: 10px;
   }
   
@@ -160,20 +160,10 @@ header{
   }
   
   .project-icon {
-    width: 50px; /* Set the width as needed */
-    height: 50px; /* Set the height as needed */
-    /* Placeholder styles, replace with your actual styles */
+    width: 50px; 
+    height: 50px; 
   }
   
-  /* .project-cards {
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-top: 20px;
-  }
-   */
    .project-cards{
     display: flex;
     flex-wrap: wrap;
@@ -181,12 +171,13 @@ header{
     margin: 0 auto;
     padding: 9px;
     gap: 10px;
+    overflow: hidden;
    }
 
 
   .project-card{
-    width:330px;
-    height: auto;
+    width:500px;
+    height: 100%;
     box-shadow: 16px 4px 30px 0px rgba(0, 0, 0, 0.25); /* Shadow effect */
     margin: 12px;
     padding: 1rem;
@@ -201,10 +192,9 @@ header{
     transform: scale(1.05);
   }
 
-  .wide{
-    width: 705px ;
-  }
-  
+
+
+
   .project-name {
     font-weight: bold;
     margin: 0;
@@ -212,6 +202,7 @@ header{
     background-color: transparent;
   }
   
+
   .project-image {
     width: 100%; 
     display: block;
@@ -231,6 +222,7 @@ header{
   .project-description,
   .project-details {
     margin: 10px;
+    
     
   }
 

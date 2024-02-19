@@ -288,7 +288,7 @@ header{
 
 
 .contact-card{
-  width: 1200px;
+  width: 1000px;
   height: auto;
   border-radius: 30px;
   background: #FFF;
@@ -306,8 +306,8 @@ header{
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   background: transparent;
+  align-items: center;
 }
 
 .contact-card label{
@@ -321,12 +321,14 @@ header{
 
 
 .contact-card input, .contact-card textarea{
-  width: 100%;
+  width: 85%;
   border: none;
+  box-sizing: border-box;
   background: none;
   border-bottom: 1.5px solid #000000;
-  padding: 5px;
+  padding: 15px;
   margin-bottom: 8px;
+  transition: border-color 0.32,box-shadow 0.3s;
   
 }
 
@@ -335,21 +337,23 @@ header{
 }
 
 .contact-card button {
-  width: 100%;
+  width: 25%;
   padding: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 16px;
   background: #F6AB13;
   color: #FFF;
   cursor: pointer;
   margin-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .contact-card .links {
-  width: 20%;
+  width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -369,7 +373,12 @@ header{
   margin-right: 10px;
 }
 
+
+
 .links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: transparent;
 }
 .links a{

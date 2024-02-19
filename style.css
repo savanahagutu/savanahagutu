@@ -261,9 +261,13 @@ header{
 
 /*Contact section */
 .contact-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   background-color: #88AB8E; 
   padding: 10px;
+  
 }
 
 .contact-icon{
@@ -293,6 +297,9 @@ header{
   flex: row;
   justify-content: space-between;
   padding: 20px;
+  margin: 0 auto;
+ 
+ 
 }
 
 .contact-card form{
@@ -300,11 +307,16 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: transparent;
 }
 
 .contact-card label{
   width: 100%;
   margin-bottom: 10px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  background: transparent;
 }
 
 
@@ -312,9 +324,9 @@ header{
   width: 100%;
   border: none;
   background: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1.5px solid #000000;
   padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   
 }
 
@@ -326,10 +338,11 @@ header{
   width: 100%;
   padding: 10px;
   border: none;
-  border-radius: 30px;
-  background: #56CCF2;
+  border-radius: 20px;
+  background: #F6AB13;
   color: #FFF;
   cursor: pointer;
+  margin-top: 50px;
 }
 
 .contact-card .links {
@@ -356,7 +369,18 @@ header{
   margin-right: 10px;
 }
 
-
+.links{
+  background: transparent;
+}
+.links a{
+  background: transparent;
+}
+.links img{
+  background: transparent;
+}
+.links span{
+  background: transparent;
+}
 
 
 
@@ -370,10 +394,17 @@ header{
 
 /*End of Contact section */
 
+/*Start of Copyright section*/
+.copyright p{
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 30px;
+  float: left;
+}
 
 
-
-
+/*End of Copyright section*/
 
 
 
@@ -455,6 +486,20 @@ header{
 
     /* end of project section  */
 
+    /*start of contact form*/
+
+    .contact-card{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .links{
+      margin-top: 35px;
+    }
+
+    /*end of contact form*/
+
 }
 
 
@@ -512,6 +557,17 @@ header{
       margin-top: 25px; 
       margin-right: 0;
   }
+
+   /*start of contact form*/
+
+   .contact-card{
+    padding: 25px;
+  }
+  .contact-card form, .contact-card .links{
+    width: 100%;
+  }
+
+  /*end of contact form*/
 }
 
 

@@ -9,19 +9,3 @@ document.querySelectorAll('.nav-links a').forEach(anchor => {
     });
 });
 
-//Scroll Button navigation
-//To Top
-function scrollToTop(){
-    window.scrollTo({
-        top:0,
-        behavior:'smooth'
-    });
-}
-
-//To Bottom
-function scrollToBottom(){
-    window.scrollTo({
-        top:document.body.scrollHeight,
-        behavior:'smooth'
-    });
-}

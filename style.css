@@ -417,8 +417,28 @@ header{
 /*End of Copyright section*/
 
 
+/* Scroll Button */
 
+#scrollToTopBtn, #scrollToBottomBtn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000000;
+  color: #FFF;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  /* display: none;
+  outline: none; */
+}
 
+.top-arrow, .down-arrow{
+  width: 20px;
+  height: 20px;
+  fill: #FFF;
+  background-color: transparent;
+}
 
 
    /* Media Queries for a Responsive Design */

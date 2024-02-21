@@ -12,9 +12,9 @@ Welcome to my personal website repository. This space represent my creativity, m
 ![Screenshot 2]()
 
 
-## Figma Design
+## Figma
 
-[Figma](https://www.figma.com/file/vjRdKHg6aACf55iqsfhXU3/My-Portfolio?type=design&node-id=3%3A2&mode=design&t=qOUPT2rRGmoQUQV2-1)
+[Figma Design](https://www.figma.com/file/vjRdKHg6aACf55iqsfhXU3/My-Portfolio?type=design&node-id=3%3A2&mode=design&t=qOUPT2rRGmoQUQV2-1)
 
 ## Contact
 

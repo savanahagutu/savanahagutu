@@ -8,7 +8,7 @@ Welcome to my personal website repository. This space represent my creativity, m
 
 ## Screenshots
 
-![Screenshot 1](images/portfolio-screenshot1.png)
+![Screenshot 1](images/portfolio-screenshot.png)
 ![Screenshot 2]()
 
 

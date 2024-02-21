@@ -1,16 +1,26 @@
 ### Hi there 👋
 
-<!--
-**savanahagutu/savanahagutu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Savanah Agutu Portfolio Website 
 
-Here are some ideas to get you started:
+## Overview
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Welcome to my personal website repository. This space represent my creativity, my personal project and skills.
+
+## Screenshots
+
+![Screenshot 1](images/portfolio-screenshot1.png)
+![Screenshot 2]()
+
+
+## Figma Design
+
+[Figma](https://www.figma.com/file/vjRdKHg6aACf55iqsfhXU3/My-Portfolio?type=design&node-id=3%3A2&mode=design&t=qOUPT2rRGmoQUQV2-1)
+
+## Contact
+
+Feel free to reach out to me via email: [savanahagutu0102@gmail.com]
+
+Connect with me on LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/savanah-agutu/)
+
+---
+

@@ -89,7 +89,6 @@
   background: -webkit-linear-gradient(141deg, #8e8b0b,#1c4689,#a767f2,#2c0741);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(141deg, #8e8b0b,#1c4689,#a767f2,#2c0741);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
 }
 
-
 .text-content { 
   display: flex;
   flex-direction: column;
@@ -98,22 +97,34 @@
   padding: 20px;
 
 }
+.text-content p{
+  margin-left: 35px;
+}
+
 
 
 .intro-text1{
     color: #FFF;
-    font-size: 60px; /* Set the font size */
+    font-size: 5rem;
     font-weight: 950;
     margin: 0;
 }
 
 .intro-text2{
+  color: #FFF;
+  font-size: 5rem; 
+  font-weight: 950;
+  margin: 0;
+}
+
+.intro-text3{
     color: #FFF;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 3rem;
     margin-top: 15px;
     
 }
+
 .name {
   color: #ECA009; /* Set the color specifically for the word "Savanah" */
 }

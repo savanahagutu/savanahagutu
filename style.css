@@ -183,114 +183,93 @@
 
  /*project section */
       
- .projects-section {
+ #projects {
     text-align: center;
-    background: -webkit-linear-gradient(54deg, #eaadad,#a7d372);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(54deg, #eaadad,#a7d372);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                                                                                                             
+    background: -webkit-linear-gradient(54deg, #eaadad,#a7d372);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(54deg, #eaadad,#a7d372);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
     padding: 10px;
   }
-  
-  .project-icons {
-    margin-top: 20px;
-  }
-
-  .section-title{
-    margin-top: 12px;
-    margin-bottom: 15px;
-  }
-  
-  .project-icon {
-    width: 50px; 
-    height: 50px; 
-  }
-  
-   .project-cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    margin: 0 auto;
-    padding: 9px;
-    gap: 10px;
-    overflow: hidden;
-   }
-
-
-  .project-card{
-    width:500px;
-    height: 100%;
-    box-shadow: 16px 4px 30px 0px rgba(0, 0, 0, 0.25); /* Shadow effect */
-    margin: 12px;
-    padding: 1rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    overflow: hidden;
-    background: rgba(255, 255, 255, 0.59);
-    transition: transform 0.2s ease-in-out;
-    
-  }
-  .project-card:hover{
-    transform: scale(1.05);
-  }
-
-
-
-
-  .project-name {
-    font-weight: bold;
-    margin: 0;
-    margin-bottom: 10px;
-    background-color: transparent;
-  }
-  
-
-  .project-image {
-    width: 100%; 
-    display: block;
-    margin-top: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-    background: transparent;
-
-  }
-  
-.project-image-wide{
-  width: 100%;
-  margin-bottom: 20px;
-  background: transparent;
+.cards-container{
+  flex-direction: column;
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.project-header h1{
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
-  .project-description,
-  .project-details {
-    margin: 10px;
-    
-    
-  }
-
-
+.all-projects{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   
-  .description-title,
-  .details-title {
-  font-weight: bold;
-  }
-
-
-
-  .project-buttons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px;
-    background: transparent;
-  }
-
   
-  .icon-live{
-    padding: 8px;
-    cursor: pointer;
-    background-color: transparent;
-  }
+}
+
+.project-card{
+  flex: 1 1 200px;
   
+  display: flex;
+  
+  /* flex-direction: row; */
+  
+  
+  border-radius: 10px;
+  
+}
 
+.project-info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  flex-basis: 50%;
+  height: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
 
+.project-info h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.project-info h2{
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.project-img{
+  flex-basis: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.project-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.project-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: .7;
+}
+#projects .project-img img {
+	transition: .3s ease transform;
+}
+.project-card:hover .project-img img{
+  transform: scale(1.1);
+}
  /* end of project section  */
 
 /*Contact section */
@@ -520,7 +499,11 @@
     /* end of about me section*/
 
     /*project section */
-      
+    
+    .project-card{
+      flex-direction: column;
+      padding: 6px;
+    }
 
 
 
@@ -597,6 +580,15 @@
       margin-top: 25px; 
       margin-right: 0;
   }
+
+  /*project section */
+  .project-card{
+    flex-direction: column;
+  }
+
+
+
+  /* end of project section  */
 
    /*start of contact form*/
 

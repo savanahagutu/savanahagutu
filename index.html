@@ -127,14 +127,12 @@ Let's connect the dots between code and creativity, and together, let's build so
     </div>
 
     <div class="contact-card">
-      <form action="form">
-        <label for="fullname">Full Name:</label><br>
-        <input type="text" id="fullname" name="fullname"><br>
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message"></textarea>
-        <button type="submit">Connect</button>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="81f246b9-b949-4f15-8e31-f1b146b0fc2e">
+        <input type="text" name="fullname" placeholder="Your Name" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
+        <textarea id="message" name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+        <button class="contact-button" role="button"  type="submit" >Connect</button>
       </form>
       <div class="links">
         <a href="http://savanahagutu.github.io/savanahagutu/" target="_blank" class="link"> 

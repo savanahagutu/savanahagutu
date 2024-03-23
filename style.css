@@ -208,11 +208,10 @@
 }
 
 .project-card{
-  width: 100%;
-  flex: 1 1 200px;
+  height: 300px;
+  flex: 1;
   display: flex;
-  align-items: stretch;
-  height: 100%;
+  
 
 }
 
@@ -222,7 +221,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 10px;
-  flex-basis: 50%;
+  flex-basis: 20%;
   height: 100%;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
@@ -239,13 +238,13 @@
 }
 
 .project-img{
+  flex: 1;
   overflow: hidden;
   position: relative;
 }
 .project-img img{
-  flex: 1;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   
 }

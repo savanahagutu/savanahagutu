@@ -208,9 +208,12 @@
 }
 
 .project-card{
+  width: 100%;
   flex: 1 1 200px;
   display: flex;
-  width: 90%;
+  align-items: stretch;
+  height: 100%;
+
 }
 
 .project-info{
@@ -218,7 +221,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
   flex-basis: 50%;
   height: 100%;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -236,11 +239,11 @@
 }
 
 .project-img{
-  flex-basis: 50%;
   overflow: hidden;
   position: relative;
 }
 .project-img img{
+  flex: 1;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -262,6 +265,74 @@
 }
 .project-card:hover .project-img img{
   transform: scale(1.1);
+}
+
+/*Buttons*/
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.project-btns {
+  margin: 10px 50px;
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  }
+  
+  .project-btns:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+  }
+
+  /*li design*/
+  .project-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+}
+.project-info li {
+  background-color: #1c73f7;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+/* Apply background colors in a repeating pattern */
+.project-info li:nth-child(4n + 1) {
+  background-color: #b19cd9; 
+}
+
+.project-info li:nth-child(4n + 2) {
+  background-color: #f5a418; 
+}
+
+.project-info li:nth-child(4n + 3) {
+  background-color: #87ceeb; 
+}
+
+.project-info li:nth-child(4n + 4) {
+  background-color: #90ee90; 
 }
  /* end of project section  */
 
@@ -540,7 +611,9 @@
       
     }
 
-
+    .project-btns {
+      padding: 10px 30px;
+      }
 
     /* end of project section  */
 
